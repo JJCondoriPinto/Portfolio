@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-satoshi font-normal text-base text-body relative;
+  }
+  #root {
+    @apply dark:bg-boxdark-2 bg-stroke
+  }
+}
+
+html, body, #root {
+  height: 100%;
+}
